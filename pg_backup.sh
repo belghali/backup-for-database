@@ -24,10 +24,10 @@ find $backup_dossier -mtime $ret -delete
 #copie des fichiers vers le dossier à envoyer sur le serveur ftp
 find $backup_dossier -name "*$backup_date.sql.gz" -exec cp {} $backup_server/ \;
 #CONSTANTES D'ENVOI FTP
-HOST='ftp.hebergratuit.net'
-LOGIN='heber_24226304'
-PASSWORD='6X2o02berA'
-PORT='21'
+HOST='###"'
+LOGIN='####'
+PASSWORD='####'
+PORT='###'
 dossier_destination='htdocs'
 #TRANSFERT
 ftp -i -n $HOST $PORT << END_SCRIPT 
