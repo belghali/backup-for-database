@@ -17,10 +17,10 @@ done
 find $backup_dossier -mtime $ret -delete
 #############
 #ftp
-HOST='ftp.hebergratuit.net'
-LOGIN='heber_24226304'
-PASSWORD='6X2o02berA'
-PORT='21'
+HOST='####'
+LOGIN='###'
+PASSWORD='####'
+PORT='##'
 dossier_destination='htdocs'
 for fich in `ls $backup_dossier |grep $backup_date`
 do
