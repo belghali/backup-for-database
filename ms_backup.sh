@@ -18,10 +18,10 @@ find $backup_dossier -mtime $ret -delete
 echo "Transfert des fichiers vers le serveur"
 echo ;
 #ftp
-HOST='ftp.hebergratuit.net'
-LOGIN='heber_24226304'
-PASSWORD='6X2o02berA'
-PORT='21'
+HOST='f########'
+LOGIN='####'
+PASSWORD='#########'
+PORT='##'
 dossier_destination='htdocs'
 cd $backup_dossier
 for fich in `ls $backup_dossier |grep $backup_date`
