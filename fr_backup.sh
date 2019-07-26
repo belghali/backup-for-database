@@ -23,10 +23,10 @@ if [ $# -eq 1 ]&&[ -f $1 ]; then
 	find $backup_dossier/ -mtime $ret -delete
 	test2=`ls $backup_dossier | head -1`
 	if [ -n $test2 ];then
-		HOST='ftp.hebergratuit.net'
-		LOGIN='heber_24226304'
-		PASSWORD='6X2o02berA'
-		PORT='21'
+		HOST='##########'
+		LOGIN='#######'
+		PASSWORD='#####'
+		PORT='#####'
 		backup_destination='htdocs'
 		cd $backup_dossier
 		echo "Transfert des fichiers vers le serveur"
