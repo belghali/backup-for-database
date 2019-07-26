@@ -20,9 +20,9 @@ echo ;
 #suppression des fichiers au dela de la retention
 find $backup_dossier -mtime $ret -delete
 #CONSTANTES D'ENVOI FTP
-HOST='ftp.hebergratuit.net'
-LOGIN='heber_24226304'
-PASSWORD='6X2o02berA'
+HOST='f#######'
+LOGIN='##########"'
+PASSWORD='######'
 PORT='21'
 dossier_destination='htdocs'
 #TRANSFERT
