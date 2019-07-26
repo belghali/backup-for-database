@@ -4,10 +4,10 @@ backup_dossier=/DB/downloads
 echo "Veuillez entrer la date des backups à récupérer au format aaaa-mm-jj"
 read date
 mkdir -p $backup_dossier
-HOST='ftp.hebergratuit.net'
-LOGIN='heber_24226304'
-PASSWORD='6X2o02berA'
-PORT='21'
+HOST='############'
+LOGIN='###########'
+PASSWORD='########'
+PORT='##'
 dossier_source='htdocs'
 ftp -i -n $HOST $PORT << END_SCRIPT
 quote USER $LOGIN
